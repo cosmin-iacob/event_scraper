@@ -1,0 +1,10 @@
+CREATE TABLE "event" (
+	"id"	INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE,
+	"identifier"	TEXT,
+	"name"	TEXT,
+	"location"	TEXT,
+	"source"	TEXT,
+	"short"	TEXT,
+	"date"	datetime,
+	"link"	TEXT
+);
